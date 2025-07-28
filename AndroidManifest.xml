@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yacine.security">
+
+    <application>
+        <service
+            android:name=".CameraMonitorService"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+</manifest>
